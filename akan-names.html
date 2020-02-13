@@ -3,15 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>Akan Name Generator</title>
-    <link href="/home/alphania/Documents/Akan-names/bootstrap-4.4.1-dist.zip" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="/home/alphania/Documents/Akan-names/css/styles.css" rel= "stylesheet" type="text/css" media="all">
   </head>
   <body>
     <div class="container"
-    <form>
+    <form="action_page.php">
       <div class="jumbotron"
       <h1><strong>AKAN NAME GENERATOR</strong></h1>
-      <p> Fill in this form to find out your Akan name. Akan names are derived from Ghanian culture whereby people are given their first name based on their gender and the day of the week during which they were born on.</p>
+      <p> Fill in this form to find out your Akan name. Akan names are derived from Ghanian culture whereby people are given their first name based on their gender and the day of the week during which they were born on. The system will use your birthday details to calculate the day of the week you were born  on and generate your male/female Akan(week) name.</p>
+      </div>
+      <div class="row">
+        <div class="col-40">
+          <label for="firstname">First Name</label>
+        </div>
+        <div class="col-100">
+          <input type="text" id="firstName" name="firstname" placeholder="Input your first name...">
+        </div>
+
+        <div class="col-40">
+          <label for="lastname">Last Name</label>
+        </div>
+        <div class="col-100">
+          <input type="text" id="lastName" name="lastname" placeholder="Input your last name...">
+        </div>
       </div>
   </body>
 </html>

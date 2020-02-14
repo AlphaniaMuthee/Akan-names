@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <title>Akan Name Generator</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="/home/alphania/Documents/Akan-names/css/styles.css" rel= "stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel= "stylesheet" type="text/css" media="all">
+    <script src="js/scripts.js"></script>
   </head>
   <body>
     <div class="container"
-    <form="action_page.php">
+    <form action="#">
       <div class="jumbotron"
       <h1><strong>AKAN NAME GENERATOR</strong></h1>
       <p> Fill in this form to find out your Akan name. Akan names are derived from Ghanian culture whereby people are given their first name based on their gender and the day of the week during which they were born on. The system will use your birthday details to calculate the day of the week you were born  on and generate your male/female Akan(week) name.</p>
@@ -29,21 +30,19 @@
           <input type="text" id="lastName" name="lastname" placeholder="Input your last name...">
         </div>
       </div>
-      <select class="custom-select">
-        <option selected>Choose your gender...</option>
-        <option value="Gender">Male</option>
-        <option value="Gender">Female</option>
-      </select>
       <div class="row">
         <div class="col-md-2">
           <label for="birthdate">Birthday</label>
         </div>
         <div class="col-md-7">
-          <input type="date" name="birthdate" value="">
+          <input type="date" id="birthdate">
         </div>
       </div>
+      <input type="radio" name="gender" onclick="passGender('M')">Male
+      <input type="radio" name="gender" onclick="passGender('F')">Female
       <div class="row">
-        <button class="btn btn-info btn-lg" type="submit" value="Submit">Submit</button>
+        <button  type="submit" value="Submit" class="btn btn-info btn-lg" >Submit</button>
       </div>
+    </div>
   </body>
 </html>

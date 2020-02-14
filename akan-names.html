@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Akan Name Generator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/styles.css" rel= "stylesheet" type="text/css" media="all">
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container"
+    <form action="#">
+      <h1><strong>AKAN NAME GENERATOR</strong></h1>
+      <div class="jumbotron"
+      <p> Fill in this form to find out your Akan name. Akan names are derived from Ghanian culture whereby people are given their first name based on their gender and the day of the week during which they were born on. The system will use your birthday details to calculate the day of the week you were born  on and generate your male/female Akan(week) name.</p>
+      </div>
+      <img src="/home/alphania/Downloads/robot.jpg" alt="A waving robot" height="240px" width="240px">
+      <div class="row">
+        <div class="col-md-2">
+          <label for="firstname">First Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7">
+          <input type="text" id="firstName" name="firstname" placeholder="Input your first name..." required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <label for="lastname">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7">
+          <input type="text" id="lastName" name="lastname" placeholder="Input your last name..." required>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <label for="birthdate">Birthday</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-7">
+          <input type="date" id="birthdate" required>
+        </div>
+      </div>
+      <input type="radio" name="gender" onclick="passGender('M')">Male
+      <input type="radio" name="gender" onclick="passGender('F')">Female
+      <div class="form-group">
+        <input type="submit" value="Submit" class="btn btn-info">
+        <input type="reset" value="Reset" class="btn btn-danger">
+      </div>
+    </form>
+    </div>
+  </body>
+</html>

@@ -11,10 +11,13 @@ body {
 }
 .jumbotron {
   background-color: inherit;
-  font-family: serif;
 }
+
 h1 {
   font-size: 40px;
   font-weight: bolder;
   text-align: center;
+}
+img {
+  float: right;
 }

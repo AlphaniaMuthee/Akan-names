@@ -1,21 +1,20 @@
-.jumbotron {
-  background-color: thistle;
-  font-family: serif;
-  font-size: 25px;
-}
-h1 {
-  font-size: 100px;
-  font-weight: bolder;
-  text-align: center;
-}
-
 body {
-  background-image: url("home/alphania/Downloads/top-writing-tools.jpg");
+  font-family: serif;
+  font-size: 20px;
+  background-color: lightgray;
+  background-image: url("/home/alphania/Downloads/top-writing-tools.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   font-weight: normal;
   background-blend-mode: overlay;
+}
+.jumbotron {
+  background-color: inherit;
   font-family: serif;
-  font-size: 20px;
+}
+h1 {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
 }

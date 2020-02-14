@@ -9,14 +9,13 @@ body {
   font-weight: normal;
   background-blend-mode: overlay;
 }
-.jumbotron {
-  background-color: inherit;
-}
-
 h1 {
   font-size: 40px;
-  font-weight: bolder;
   text-align: center;
+}
+.jumbotron {
+  background-color: inherit;
+  text-align: justify;
 }
 img {
   float: right;

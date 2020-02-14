@@ -16,5 +16,5 @@ Reach out to me in any of the following places:
 * twitter at @alphaniac
 * email at walphania2@gmail.com
 ### License
-[MIT] License
+MIT License
 Copyright (c) 2020 **Alphania Muthee**

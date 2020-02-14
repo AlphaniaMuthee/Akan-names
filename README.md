@@ -2,7 +2,7 @@
 #### The site generates Ghanian Akan(week) names based on the birthday and gender of the user., 14 February 2020.
 #### By **Alphania Muthee**
 ## About Author
-
+The author joined Moringa School for prep program in February 2020.
 ## Description
 The application allows the user to input their name, birthday and select their gender. With the date and gender, the application is able to generate and display the Akan(week) name of the user. The application cannot run unless it has the gender and birthdate of the user.
 ## Setup/Installation Requirements
@@ -19,5 +19,5 @@ Reach out to me in any of the following places:
 * twitter at @alphaniac
 * email at walphania2@gmail.com
 ### License
-MIT License
+[MIT] License
 Copyright (c) 2020 **Alphania Muthee**
